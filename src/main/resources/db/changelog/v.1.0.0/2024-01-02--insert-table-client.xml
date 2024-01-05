@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet logicalFilePath="2024-01-02--insert-table-client"
+               id="2024-01-02--insert-table-client" author="s.mitskevich">
+        <insert tableName="clients">
+            <column  name="first_name"  value="Hassan"/>
+            <column  name="last_name"  value="Herman"/>
+            <column  name="email"  value="hassan_herman_1@gmail.com"/>
+            <column  name="telephone"  value="+375290789684"/>
+            <column  name="birthday"  value="1969-12-02"/>
+            <column  name="registration_date"  value="2017-10-10T16:50"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column  name="first_name"  value="Valda"/>
+            <column  name="last_name"  value="Nitzsche"/>
+            <column  name="email"  value="valda_nitzsche_2@gmail.com"/>
+            <column  name="telephone"  value="+375293192515"/>
+            <column  name="birthday"  value="1968-07-07"/>
+            <column  name="registration_date"  value="2018-12-14T21:22"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column  name="first_name"  value="Daina"/>
+            <column  name="last_name"  value="Mante"/>
+            <column  name="email"  value="daina_mante_3@gmail.com"/>
+            <column  name="telephone"  value="+375292429970"/>
+            <column  name="birthday"  value="1960-12-11"/>
+            <column  name="registration_date"  value="2019-08-26T12:19"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column  name="first_name"  value="Nadene"/>
+            <column  name="last_name"  value="Cummerata"/>
+            <column  name="email"  value="nadene_cummerata_4@gmail.com"/>
+            <column  name="telephone"  value="+375292113017"/>
+            <column  name="birthday"  value="1973-11-11"/>
+            <column  name="registration_date"  value="2015-05-09T22:17"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column  name="first_name"  value="Cecile"/>
+            <column  name="last_name"  value="Wuckert"/>
+            <column  name="email"  value="cecile_wuckert_5@gmail.com"/>
+            <column  name="telephone"  value="+375297554481"/>
+            <column  name="birthday"  value="1969-01-25"/>
+            <column  name="registration_date"  value="2015-08-06T20:44"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column  name="first_name"  value="Cherri"/>
+            <column  name="last_name"  value="Cronin"/>
+            <column  name="email"  value="cherri_cronin_6@gmail.com"/>
+            <column  name="telephone"  value="+375290265605"/>
+            <column  name="birthday"  value="1990-06-16"/>
+            <column  name="registration_date"  value="2019-06-08T02:35"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column  name="first_name"  value="Israel"/>
+            <column  name="last_name"  value="Harris"/>
+            <column  name="email"  value="israel_harris_7@gmail.com"/>
+            <column  name="telephone"  value="+375290060850"/>
+            <column  name="birthday"  value="1976-03-14"/>
+            <column  name="registration_date"  value="2019-03-17T06:21"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column  name="first_name"  value="Gaston"/>
+            <column  name="last_name"  value="Bergstrom"/>
+            <column  name="email"  value="gaston_bergstrom_9@gmail.com"/>
+            <column  name="telephone"  value="+375295891521"/>
+            <column  name="birthday"  value="1986-02-22"/>
+            <column  name="registration_date"  value="2016-02-10T01:15"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column  name="first_name"  value="Lezlie"/>
+            <column  name="last_name"  value="Feeney"/>
+            <column  name="email"  value="lezlie_feeney_10@gmail.com"/>
+            <column  name="telephone"  value="+375298943920"/>
+            <column  name="birthday"  value="1991-12-09"/>
+            <column  name="registration_date"  value="2016-12-08T15:26"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column  name="first_name"  value="Santo"/>
+            <column  name="last_name"  value="Grant"/>
+            <column  name="email"  value="santo_grant_11@gmail.com"/>
+            <column  name="telephone"  value="+375299007599"/>
+            <column  name="birthday"  value="1986-02-25"/>
+            <column  name="registration_date"  value="2015-02-25T14:58"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column  name="first_name"  value="Fumiko"/>
+            <column  name="last_name"  value="Goodwin"/>
+            <column  name="email"  value="fumiko_goodwin_12@gmail.com"/>
+            <column  name="telephone"  value="+375294892179"/>
+            <column  name="birthday"  value="1993-04-28"/>
+            <column  name="registration_date"  value="2020-02-23T21:06"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column  name="first_name"  value="Mauricio"/>
+            <column  name="last_name"  value="Rice"/>
+            <column  name="email"  value="mauricio_rice_13@gmail.com"/>
+            <column  name="telephone"  value="+375299846949"/>
+            <column  name="birthday"  value="1981-02-26"/>
+            <column  name="registration_date"  value="2016-09-19T22:37"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column  name="first_name"  value="Harriett"/>
+            <column  name="last_name"  value="Hartmann"/>
+            <column  name="email"  value="harriett_hartmann_14@gmail.com"/>
+            <column  name="telephone"  value="+375299092697"/>
+            <column  name="birthday"  value="1984-07-02"/>
+            <column  name="registration_date"  value="2016-09-02T00:10"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column  name="first_name"  value="Harry"/>
+            <column  name="last_name"  value="Rempel"/>
+            <column  name="email"  value="harry_rempel_15@gmail.com"/>
+            <column  name="telephone"  value="+375290357859"/>
+            <column  name="birthday"  value="1963-09-21"/>
+            <column  name="registration_date"  value="2017-04-01T16:45"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column  name="first_name"  value="Marlana"/>
+            <column  name="last_name"  value="Lindgren"/>
+            <column  name="email"  value="marlana_lindgren_16@gmail.com"/>
+            <column  name="telephone"  value="+375294317096"/>
+            <column  name="birthday"  value="1968-08-07"/>
+            <column  name="registration_date"  value="2015-03-09T13:43"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column  name="first_name"  value="Marcellus"/>
+            <column  name="last_name"  value="Gaylord"/>
+            <column  name="email"  value="marcellus_gaylord_38@gmail.com"/>
+            <column  name="telephone"  value="+375299869262"/>
+            <column  name="birthday"  value="1976-05-06"/>
+            <column  name="registration_date"  value="2017-06-29T11:50"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column  name="first_name"  value="Andrew"/>
+            <column  name="last_name"  value="Jast"/>
+            <column  name="email"  value="andrew_jast_39@gmail.com"/>
+            <column  name="telephone"  value="+375297018816"/>
+            <column  name="birthday"  value="1990-03-09"/>
+            <column  name="registration_date"  value="2017-03-07T02:40"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column  name="first_name"  value="Lecia"/>
+            <column  name="last_name"  value="Metz"/>
+            <column  name="email"  value="lecia_metz_40@gmail.com"/>
+            <column  name="telephone"  value="+375297541424"/>
+            <column  name="birthday"  value="1964-03-30"/>
+            <column  name="registration_date"  value="2017-11-02T02:10"/>
+        </insert>
+
+        <insert tableName="clients">
+            <column  name="first_name"  value="Ross"/>
+            <column  name="last_name"  value="Rosenbaum"/>
+            <column  name="email"  value="ross_rosenbaum_41@gmail.com"/>
+            <column  name="telephone"  value="+375299017702"/>
+            <column  name="birthday"  value="1998-11-05"/>
+            <column  name="registration_date"  value="2020-05-03T01:09"/>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>
